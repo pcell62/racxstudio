@@ -9,10 +9,15 @@ import Mobile3 from "../assets/images/Services/Mobile3.png";
 import UIUX3 from "../assets/images/Services/Design3.png";
 
 // Advantages
-import Communicative from "../assets/images/Advantages/Communicative.png";
-import Collaborative from "../assets/images/Advantages/Collaborative.png";
-import Management from "../assets/images/Advantages/Management.png";
-import Favorite from "../assets/images/Advantages/Favorite.png";
+import one from "../assets/images/Advantages/1.png";
+import two from "../assets/images/Advantages/2.png";
+import three from "../assets/images/Advantages/3.png";
+import four from "../assets/images/Advantages/4.png";
+import five from "../assets/images/Advantages/5.png";
+import six from "../assets/images/Advantages/6.png";
+import seven from "../assets/images/Advantages/7.png";
+import eight from "../assets/images/Advantages/8.png";
+import nine from "../assets/images/Advantages/9.png";
 
 import JalMayo from "../assets/images/Portfolio/jal_mayo.jpg";
 import DarkSoy from "../assets/images/Portfolio/dark_soy.jpg";
@@ -309,39 +314,36 @@ export const Portfolios = [
 export const Advantages = [
   [
     {
-      title: "Communicative",
-      description:
-        "We communicate our project ideas and progress to make it clear.",
-      imageUrl: Communicative,
+      imageUrl: one,
     },
     {
-      title: "Management",
-      description:
-        "We manage our project properly to make our project done well.",
-      imageUrl: Management,
+      imageUrl: two,
     },
     {
-      title: "Favorite",
-      description: "We've did so many project and all of our client love it.",
-      imageUrl: Favorite,
+      imageUrl: nine,
     },
   ],
   [
     {
-      title: "Collaborative​",
-      description:
-        "Our team are very collaborative to make our project done well.",
-      imageUrl: Collaborative,
+      imageUrl: three,
     },
     {
-      title: "Favorite",
-      description: "We've did so many project and all of our client love it.",
-      imageUrl: Favorite,
+      imageUrl: four,
     },
     {
-      title: "Favorite",
-      description: "We've did so many project and all of our client love it.",
-      imageUrl: Favorite,
+      imageUrl: seven,
     },
   ],
+  [
+    {
+      imageUrl: five,
+    },
+    {
+      imageUrl: six,
+    },
+    {
+      imageUrl: eight,
+    },
+  ],
+  [],
 ];
