@@ -23,17 +23,17 @@ const FoodPortfolio = ({ data }) => {
     <div className="container mx-auto p-4">
       <Tabs className="flex flex-col">
         <TabList className="flex flex-wrap gap-4 mb-8">
-          <Tab className="cursor-pointer outline-none">
+          <Tab className="rounded-full cursor-pointer outline-none">
             <button className="px-6 py-2 text-orange-600 border-2 border-orange-600 rounded-full hover:bg-orange-600 hover:text-white focus:bg-orange-600 focus:text-white transition-colors">
               Sauces
             </button>
           </Tab>
-          <Tab className="cursor-pointer outline-none">
+          <Tab className="rounded-full cursor-pointer outline-none">
             <button className="px-6 py-2 text-orange-600 border-2 border-orange-600 rounded-full hover:bg-orange-600 hover:text-white focus:bg-orange-600 focus:text-white transition-colors">
               Mayonnaise
             </button>
           </Tab>
-          <Tab className="cursor-pointer outline-none">
+          <Tab className="rounded-full cursor-pointer outline-none">
             <button className="px-6 py-2 text-orange-600 border-2 border-orange-600 rounded-full hover:bg-orange-600 hover:text-white focus:bg-orange-600 focus:text-white transition-colors">
               Chutneys & Paste
             </button>
