@@ -9,9 +9,6 @@ import Mobile3 from "../assets/images/Services/Mobile3.png";
 import UIUX3 from "../assets/images/Services/Design3.png";
 
 // Portfolio Img Imports
-import Recruiting from "../assets/images/Portfolio/Recruiting.png";
-import Stream from "../assets/images/Portfolio/Stream.png";
-import Freelance from "../assets/images/Portfolio/Freelance.png";
 import Aura from "../assets/images/Portfolio/Aura.png";
 import Surtido from "../assets/images/Portfolio/Surtido.png";
 import ManagementApp from "../assets/images/Portfolio/ManagementApp.png";
@@ -21,8 +18,6 @@ import Communicative from "../assets/images/Advantages/Communicative.png";
 import Collaborative from "../assets/images/Advantages/Collaborative.png";
 import Management from "../assets/images/Advantages/Management.png";
 import Favorite from "../assets/images/Advantages/Favorite.png";
-
-// Testimonials
 
 // TeamMembers
 import CEO from "../assets/images/TeamMembers/CEO.jpg";
@@ -37,6 +32,10 @@ import Mobile1 from "../assets/images/TeamMembers/Mobile1.jpg";
 import Mobile2 from "../assets/images/TeamMembers/Mobile2.jpg";
 import UIUX1 from "../assets/images/TeamMembers/UIUX1.jpg";
 import UIUX2 from "../assets/images/TeamMembers/UIUX2.jpg";
+
+import JalMayo from "../assets/images/Portfolio/jal_mayo.jpg";
+import DarkSoy from "../assets/images/Portfolio/dark_soy.jpg";
+import BarMayo from "../assets/images/Portfolio/bar_mayo.jpg";
 
 export const Services = [
   {
@@ -62,27 +61,21 @@ export const Services = [
 export const Portfolios = [
   {
     id: "asd1293uasdads1",
-    title: "Recruiting App",
-    imageUrl: Recruiting,
-    type: "Mobile Apps",
-    responsibility: ["Mobile Development", "UI/UX Design"],
-    credit: "https://dribbble.com/shots/15164950-Recruiting-app",
+    title: "Jalapeno Mayonnaise",
+    imageUrl: JalMayo,
+    type: "Mayonnaise",
   },
   {
     id: "asd1293uhjkhkjh2",
-    title: "Stream+",
-    imageUrl: Stream,
-    type: "Mobile Apps",
-    responsibility: ["Mobile Development", "UI/UX Design"],
-    credit: "https://dribbble.com/shots/15276430-Stream",
+    title: "Dark Soy Sauce",
+    imageUrl: DarkSoy,
+    type: "Sauces",
   },
   {
     id: "asd1293uvbvcbbd3",
-    title: "Freelance",
-    imageUrl: Freelance,
-    type: "Mobile Apps",
-    responsibility: ["Mobile Development", "UI/UX Design"],
-    credit: "https://dribbble.com/shots/15223131-Freelance-Mobile-App-Concept",
+    title: "Barbeque Mayonnaise",
+    imageUrl: BarMayo,
+    type: "Mayonnaise",
   },
   {
     id: "asd1293ufgdfgs4",
