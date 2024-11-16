@@ -130,7 +130,7 @@ export const DiscussForm = (actions) => {
               name="projectIdea"
               type="textarea"
               value={data.projectIdea}
-              placeholder="Explain about your project idea"
+              placeholder="Please write your message"
               className=""
               onChange={actions.onChange}
             />
