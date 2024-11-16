@@ -4,6 +4,9 @@
 import Web from "../assets/images/Services/Web.png";
 import Mobile from "../assets/images/Services/Mobile.png";
 import UIUX from "../assets/images/Services/Design.png";
+import Web2 from "../assets/images/Services/Web2.png";
+import Mobile3 from "../assets/images/Services/Mobile3.png";
+import UIUX3 from "../assets/images/Services/Design3.png";
 
 // Portfolio Img Imports
 import Recruiting from "../assets/images/Portfolio/Recruiting.png";
@@ -43,16 +46,19 @@ export const Services = [
     title: "Sauces",
     imageUrl: Web,
     animation: "left",
+    imageUrl2: Web2,
   },
   {
     title: "Ready to cook pastes",
     imageUrl: Mobile,
     animation: "up",
+    imageUrl2: Mobile3,
   },
   {
     title: "Mayonnaise",
     imageUrl: UIUX,
     animation: "right",
+    imageUrl2: UIUX3,
   },
 ];
 
