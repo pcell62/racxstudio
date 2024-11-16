@@ -7,7 +7,7 @@ section {
 }
 /* ./assets/css/styles.css */
 body {
-  @apply bg-[#FDE7BB]; /* You can change this to any Tailwind background color */
+  @apply bg-[#EDE8D0]; /* You can change this to any Tailwind background color */
 }
 
 .active-link {
