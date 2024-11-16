@@ -75,8 +75,8 @@ export const DiscussForm = (actions) => {
 
       <Fade direction="up" triggerOnce>
         <p className="font-light text-lg text-gray-400 text-center mb-12">
-          Please fill out the form below to discuss your project and we'll get
-          back to you in less than 24 hours.
+          Reach Out for Product Inquiries, Custom Orders, or Partnership
+          Opportunities
         </p>
       </Fade>
 
