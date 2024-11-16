@@ -64,6 +64,17 @@ export default function Header() {
             Home
           </Button>
         </li>
+        <li>
+          <Button
+            className={`${
+              path === "/catalog" ? "active-link" : ""
+            } font-medium text-lg px-5 no-underline hover:underline`}
+            type="link"
+            href="/catalog"
+          >
+            Catalog
+          </Button>
+        </li>
 
         <li className="py-2 lg:py-0">
           <Button
