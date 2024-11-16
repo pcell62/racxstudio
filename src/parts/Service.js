@@ -18,14 +18,14 @@ const Service = ({ data }) => {
         </Fade>
         <Fade direction="left" triggerOnce>
           <p className="font-light text-lg text-gray-400 text-center mb-12">
-            We are ready to scale up your business with our great service.
+            Explore Our Wide Range of Sauces and Condiments.
           </p>
         </Fade>
         <div className="grid grid-rows-3 px-10 gap-8 sm:grid-cols-3 sm:grid-rows-1 sm:gap-6 xl:gap-16">
           {data.map((item, index) => (
             <Fade
               direction={item.animation}
-              delay={500 * index}
+              delay={200 * index}
               key={index}
               triggerOnce
             >

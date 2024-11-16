@@ -31,13 +31,13 @@ export default function FeaturedProducts({ data }) {
 
       <Fade direction="left" triggerOnce>
         <p className="font-light text-lg text-gray-500 text-center mt-4 mb-12">
-          We are ready to scale up your business with our great work result.
+          A Sneak Peek into Our Best-Selling Products
         </p>
       </Fade>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {randomItems.map((item, index) => (
-          <Fade direction="up" triggerOnce delay={500 * index} key={item.id}>
+          <Fade direction="up" triggerOnce delay={200 * index} key={item.id}>
             <div className="group rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
               <div className="relative aspect-square">
                 <img
