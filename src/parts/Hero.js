@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="w-full lg:w-1/2 xl:pl-12 sm:pr-2 mt-8">
         <h1 className="text-5xl sm:text-6xl text-theme-blue font-bold leading-tight mb-5">
           Transforming ordinary dishes into <br />
-          extraordinary experiences
+          extraordinary experiences hi hi haha
         </h1>
 
         <p className="font-light text-xl text-gray-400 leading-relaxed mb-16">
@@ -25,7 +25,7 @@ export default function Hero() {
           <Button
             href="/project"
             type="link"
-            className="flex w-fit -tracking-tighter h-18 items-center px-14 py-5 text-white text-xl bg-theme-purple rounded-lg shadow-2xl hover:bg-dark-theme-purple transition duration-200"
+            className="flex w-fit -tracking-tighter h-18 items-center px-14 py-5 text-white text-xl bg-[#C0342B] rounded-lg shadow-2xl hover:bg-dark-theme-purple transition duration-200"
           >
             See Our Products
             <svg
