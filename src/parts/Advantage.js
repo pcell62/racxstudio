@@ -18,7 +18,7 @@ export default function Advantage({ data }) {
           </h1>
 
           <p className="font-light text-lg text-gray-400 text-center mb-12 sm:mb-5 xl:mb-0">
-            Honored to Serve These Esteemed Clients
+            Honored to Serve These Esteemed Customers
           </p>
         </Fade>
 
