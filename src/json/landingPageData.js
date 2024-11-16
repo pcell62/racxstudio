@@ -19,20 +19,6 @@ import Collaborative from "../assets/images/Advantages/Collaborative.png";
 import Management from "../assets/images/Advantages/Management.png";
 import Favorite from "../assets/images/Advantages/Favorite.png";
 
-// TeamMembers
-import CEO from "../assets/images/TeamMembers/CEO.jpg";
-import HRD from "../assets/images/TeamMembers/HRD.jpg";
-import Finance from "../assets/images/TeamMembers/Finance.jpg";
-import ProjectManager from "../assets/images/TeamMembers/Project-manager.jpg";
-import Frontend1 from "../assets/images/TeamMembers/Frontend1.jpg";
-import Frontend2 from "../assets/images/TeamMembers/Frontend2.jpg";
-import Backend1 from "../assets/images/TeamMembers/Backend1.jpg";
-import Backend2 from "../assets/images/TeamMembers/Backend2.jpg";
-import Mobile1 from "../assets/images/TeamMembers/Mobile1.jpg";
-import Mobile2 from "../assets/images/TeamMembers/Mobile2.jpg";
-import UIUX1 from "../assets/images/TeamMembers/UIUX1.jpg";
-import UIUX2 from "../assets/images/TeamMembers/UIUX2.jpg";
-
 import JalMayo from "../assets/images/Portfolio/jal_mayo.jpg";
 import DarkSoy from "../assets/images/Portfolio/dark_soy.jpg";
 import BarMayo from "../assets/images/Portfolio/bar_mayo.jpg";
@@ -132,67 +118,4 @@ export const Advantages = [
       imageUrl: Favorite,
     },
   ],
-];
-
-export const TeamMembers = [
-  {
-    name: "Rach David",
-    position: "CEO",
-    imageUrl: CEO,
-  },
-  {
-    name: "Pauline Sydney",
-    position: "HRD",
-    imageUrl: HRD,
-  },
-  {
-    name: "Granger Watterson",
-    position: "Finance",
-    imageUrl: Finance,
-  },
-  {
-    name: "Tom Jimmy",
-    position: "Project Manager",
-    imageUrl: ProjectManager,
-  },
-  {
-    name: "Jim Hendrix",
-    position: "Front-end Developer",
-    imageUrl: Frontend1,
-  },
-  {
-    name: "Calvin Max",
-    position: "Front-end Developer",
-    imageUrl: Frontend2,
-  },
-  {
-    name: "Hawkins Jim",
-    position: "Back-end Developer",
-    imageUrl: Backend1,
-  },
-  {
-    name: "Don Bizaro",
-    position: "Back-end Developer",
-    imageUrl: Backend2,
-  },
-  {
-    name: "Bill Markinson",
-    position: "Mobile Developer",
-    imageUrl: Mobile1,
-  },
-  {
-    name: "Igor Kavarov",
-    position: "Mobile Developer",
-    imageUrl: Mobile2,
-  },
-  {
-    name: "Freddie Curl",
-    position: "UI/UX Designer",
-    imageUrl: UIUX2,
-  },
-  {
-    name: "Monica Lovegood",
-    position: "UI/UX Designer",
-    imageUrl: UIUX1,
-  },
 ];
