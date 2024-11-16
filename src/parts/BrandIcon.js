@@ -2,20 +2,15 @@
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable import/extensions */
 
-import React from 'react';
+import React from "react";
 
-import Button from '../elements/Button';
+import Button from "../elements/Button";
 
 export default function BrandIcon() {
   return (
-    <Button
-      className=""
-      type="link"
-      href="/"
-    >
-      <p className="text-theme-blue text-4xl font-medium ">
-        Racx
-        <span className="text-theme-purple">studio</span>
+    <Button className="" type="link" href="/">
+      <p className=" text-4xl text-[#d6b469] tracking-tight font-medium ">
+        V R FOOD PRODUCTS
       </p>
     </Button>
   );
