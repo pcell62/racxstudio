@@ -78,11 +78,11 @@ export default function Header() {
         </li>
         <li>
           <Button
-            className="font-medium text-lg mx-auto ml-3 px-6 py-2 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:bg-theme-purple transition duration-200"
+            className="font-medium text-lg mx-auto ml-3 px-6 py-2 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:text-xl transition-all duration-200"
             type="link"
             href="/discuss-project"
           >
-            Discuss Project
+            Contact Us
           </Button>
         </li>
       </ul>

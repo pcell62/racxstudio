@@ -18,8 +18,8 @@ export default function Hero() {
           <br /> and Condiments <br />– From Bulk Supply to Custom Bottling
         </h1>
 
-        <p className="font-light text-xl text-gray-400 leading-relaxed mb-16">
-          Elevating your food, one sauce at a time.
+        <p className="font-light text-3xl text-gray-400 leading-relaxed mb-16">
+          Delivering taste all over the world
         </p>
         <Fade direction="up" delay={500} triggerOnce>
           <Button
