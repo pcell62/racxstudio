@@ -4,7 +4,13 @@
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prop-types */
 import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+// prettier-ignore
+import {
+  Tab,
+  Tabs,
+  TabList,
+  TabPanel,
+} from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
 const FoodPortfolio = ({ data }) => {
