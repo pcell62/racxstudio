@@ -18,10 +18,7 @@ export default function Hero() {
           Is Our Calling
         </h1>
 
-        <p className="font-light text-xl text-gray-400 leading-relaxed mb-16">
-          We provide developers & designers using latest technologies to help
-          you scale up your business.
-        </p>
+        <p className="font-light text-xl text-gray-400 leading-relaxed mb-16"></p>
         <Fade direction="up" delay={500} triggerOnce>
           <Button
             href="/project"
