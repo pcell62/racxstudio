@@ -8,7 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import LandingPage from "pages/LandingPage";
 import ProjectPage from "pages/ProjectPage";
 import NotFoundPage from "pages/NotFoundPage";
-
+import Catalog from "pages/Catalog";
 import { ProjectDetailPage } from "pages/ProjectDetailPage";
 import { DiscussProjectPage } from "pages/DiscussProjectPage";
 
@@ -22,6 +22,7 @@ function App() {
         <Route path="/product" element={<ProjectPage />} />
         <Route exact path="/project/:id" element={<ProjectDetailPage />} />
         <Route exact path="/discuss-project" element={<DiscussProjectPage />} />
+        <Route exact path="/catalog" element={<Catalog />} />
         <Route path="**" element={<NotFoundPage />} />
       </Routes>
     </>
