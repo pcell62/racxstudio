@@ -14,8 +14,8 @@ export default function Hero() {
     <section className="hero">
       <div className="w-full lg:w-1/2 xl:pl-12 sm:pr-2 mt-8">
         <h1 className="text-5xl sm:text-6xl text-[#8B1A1A] font-bold leading-tight mb-5">
-          Transforming ordinary dishes into <br />
-          extraordinary experiences hi hi haha
+          Crafted Sauces
+          <br /> and Condiments <br />– From Bulk Supply to Custom Bottling
         </h1>
 
         <p className="font-light text-xl text-gray-400 leading-relaxed mb-16">
