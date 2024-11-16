@@ -23,7 +23,7 @@ export default function Hero() {
         </p>
         <Fade direction="up" delay={500} triggerOnce>
           <Button
-            href="/project"
+            href="/product"
             type="link"
             className="flex w-fit -tracking-tighter h-18 items-center px-14 py-5 text-white text-xl bg-[#C0342B] rounded-lg shadow-2xl transition duration-200"
           >
