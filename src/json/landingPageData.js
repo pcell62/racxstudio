@@ -40,17 +40,17 @@ import UIUX2 from "../assets/images/TeamMembers/UIUX2.jpg";
 
 export const Services = [
   {
-    title: "Web Development",
+    title: "Sauces",
     imageUrl: Web,
     animation: "left",
   },
   {
-    title: "Mobile Development",
+    title: "Ready to cook pastes",
     imageUrl: Mobile,
     animation: "up",
   },
   {
-    title: "UI/UX Design",
+    title: "Mayonnaise",
     imageUrl: UIUX,
     animation: "right",
   },
