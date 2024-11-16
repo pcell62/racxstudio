@@ -104,6 +104,11 @@ export const Advantages = [
         "We manage our project properly to make our project done well.",
       imageUrl: Management,
     },
+    {
+      title: "Favorite",
+      description: "We've did so many project and all of our client love it.",
+      imageUrl: Favorite,
+    },
   ],
   [
     {
@@ -111,6 +116,11 @@ export const Advantages = [
       description:
         "Our team are very collaborative to make our project done well.",
       imageUrl: Collaborative,
+    },
+    {
+      title: "Favorite",
+      description: "We've did so many project and all of our client love it.",
+      imageUrl: Favorite,
     },
     {
       title: "Favorite",
