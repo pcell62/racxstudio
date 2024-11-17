@@ -380,9 +380,6 @@ const FoodPortfolio = ({ data }) => {
                       <td className="border border-gray-300 px-4 py-2">
                         {item.packaging.join(", ")}
                       </td>
-                      <td className="border border-gray-300 px-4 py-2">
-                        {item.type}
-                      </td>
                     </tr>
                   ))}
               </tbody>
