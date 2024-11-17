@@ -87,11 +87,22 @@ export default function Header() {
             Products
           </Button>
         </li>
+        <li className="py-2 lg:py-0">
+          <Button
+            className={`${
+              path === "/project" ? "active-link" : ""
+            } font-medium text-lg px-5 no-underline hover:underline`}
+            type="link"
+            href="/about"
+          >
+            About us
+          </Button>
+        </li>
         <li>
           <Button
             className="font-medium text-lg mx-auto ml-3 px-6 py-2 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:text-xl transition-all duration-200"
             type="link"
-            href="/discuss-project"
+            href="/contact-us"
           >
             Contact Us
           </Button>
