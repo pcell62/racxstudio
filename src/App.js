@@ -22,7 +22,7 @@ function App() {
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/product" element={<ProjectPage />} />
         <Route exact path="/project/:id" element={<ProjectDetailPage />} />
-        <Route exact path="/discuss-project" element={<DiscussProjectPage />} />
+        <Route exact path="/contact-us" element={<DiscussProjectPage />} />
         <Route exact path="/catalog" element={<Catalog />} />
         <Route exact path="/about" element={<About />} />
         <Route path="**" element={<NotFoundPage />} />
