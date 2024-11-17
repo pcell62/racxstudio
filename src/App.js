@@ -9,6 +9,7 @@ import LandingPage from "pages/LandingPage";
 import ProjectPage from "pages/ProjectPage";
 import NotFoundPage from "pages/NotFoundPage";
 import Catalog from "pages/Catalog";
+import About from "pages/About";
 import { ProjectDetailPage } from "pages/ProjectDetailPage";
 import { DiscussProjectPage } from "pages/DiscussProjectPage";
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/project/:id" element={<ProjectDetailPage />} />
         <Route exact path="/discuss-project" element={<DiscussProjectPage />} />
         <Route exact path="/catalog" element={<Catalog />} />
+        <Route exact path="/about" element={<About />} />
         <Route path="**" element={<NotFoundPage />} />
       </Routes>
     </>
