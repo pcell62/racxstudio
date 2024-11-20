@@ -45,8 +45,8 @@ export const DiscussProjectPage = () => {
             className=""
           />
         </div>
-        <div className="flex justify-center items-center pb-10">
-          <div className="sm:absolute sm:top-0 sm:right-20 ">
+        <div className="md:flex justify-center items-center pb-10">
+          <div className="sm:absolute sm:top-0 sm:right-20 mb-10 mx-auto">
             <div className="text-2xl text-theme-purple">Our Location 👇👇</div>
             <iframe
               className=" rounded-xl shadow-2xl w-[250px] h-[250px] hover:w-[400px] hover:h-[400px] transition-all duration-500 ease-in-out"
@@ -57,6 +57,31 @@ export const DiscussProjectPage = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
+          </div>
+          <div className="bg-white shadow-md rounded-lg p-6 max-w-sm md:max-w-md w-full mb-5">
+            <h2 className="text-xl font-bold text-gray-800 mb-4">
+              Contact Information
+            </h2>
+            <p className="text-sm text-gray-600 mb-2">
+              <strong>Address:</strong> Shop No. 10/11, Plt No.71, Survey No.
+              306, Navghar Road, Raipada, Near Water Tank, Saphale(E), Dist.
+              Palghar - 401102
+            </p>
+            <p className="text-sm text-gray-600 mb-2">
+              <strong>GSTIN/UIN:</strong> 27AYVPR4504K1ZQ
+            </p>
+            <p className="text-sm text-gray-600 mb-2">
+              <strong>PAN/IT No:</strong> AYVPR4504K
+            </p>
+            <p className="text-sm text-gray-600 mb-2">
+              <strong>State:</strong> Maharashtra (Code: 27)
+            </p>
+            <p className="text-sm text-gray-600 mb-2">
+              <strong>Place of Supply:</strong> Maharashtra
+            </p>
+            <p className="text-sm text-gray-600">
+              <strong>Contact:</strong> +91-9892161748, 8097978769
+            </p>
           </div>
         </div>
       </div>

@@ -47,7 +47,7 @@ const AboutPage = () => {
               <div className="text-4xl font-semibold text-gray-800 mb-20 mx-auto">
                 Meet Our Co-Founders
               </div>
-              <div className="md:flex justify-center space-x-8 mb-10">
+              <div className="md:flex justify-center space-x-8 mb-10 flex-col sm:flex-row">
                 <div className="text-center px-10">
                   <img
                     src={photo1}
