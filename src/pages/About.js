@@ -1,41 +1,31 @@
 import Header from "parts/Header";
 import React from "react";
 import Footer from "parts/Footer";
+import photo1 from "../assets/images/IMG_2612.jpg";
+import photo2 from "../assets/images/IMG_2616.jpg";
 
 const AboutPage = () => {
   return (
     <main className="min-h-screen">
       <Header />
-      <section className="py-20 ">
-        <div className="container mx-auto px-4 flex flex-wrap items-start">
-          <div className="md:ml-40">
-            <div className="text-center max-w-lg mx-auto mb-12">
-              <h2 className="text-4xl font-semibold text-gray-800">
-                Crafting Quality Sauces for Every Business Need
-              </h2>
-              <p className="text-gray-600">
-                We are dedicated to creating premium sauces, condiments, and
-                mayonnaise, tailored to meet the diverse needs of food
-                businesses worldwide. From flavorful classics to custom
-                creations, our products are crafted with care and quality in
-                every batch.
-              </p>
-            </div>
-            <div className="text-center max-w-lg mx-auto mb-12">
-              <h3 className="text-2xl font-semibold text-gray-800">
+      <section className="py-20 flex flex-col justify-center">
+        <div className="container mx-auto px-4 ">
+          <div className="">
+            <div className="text-center max-w-8xl mx-auto mb-12">
+              <h1 className="text-4xl font-semibold text-gray-800">
                 Our Mission
-              </h3>
-              <p className="text-gray-600">
+              </h1>
+              <p className="text-gray-600 text-xl">
                 Our mission is to bring flavor and convenience to the food
                 industry by delivering high-quality sauces and condiments,
                 backed by reliable service and innovative packaging solutions.
               </p>
             </div>
-            <div className="text-center max-w-lg mx-auto mb-12">
-              <h3 className="text-2xl font-semibold text-gray-800">
+            <div className="text-center max-w-8xl mx-auto mb-12">
+              <h3 className="text-4xl font-semibold text-gray-800">
                 Why Choose Us
               </h3>
-              <ul className="text-gray-600 list-disc list-inside">
+              <ul className="text-gray-600 list-disc list-inside text-xl">
                 <li>
                   Custom Solutions: We offer flexibility in flavors and
                   packaging, providing both bulk solutions and ready-to-shelf
@@ -53,47 +43,38 @@ const AboutPage = () => {
                 </li>
               </ul>
             </div>
-
-            <div className="text-center max-w-lg mx-auto mb-12">
-              <h3 className="text-2xl font-semibold text-gray-800">
-                Our Vision
-              </h3>
-              <p className="text-gray-600">
-                We envision becoming a trusted partner for food businesses,
-                helping them elevate their offerings with flavors crafted for
-                every taste and need.
-              </p>
+            <div className="flex flex-col justify-center">
+              <div className="text-4xl font-semibold text-gray-800 mb-20 mx-auto">
+                Meet Our Co-Founders
+              </div>
+              <div className="md:flex justify-center space-x-8 mb-10">
+                <div className="text-center px-10">
+                  <img
+                    src={photo1}
+                    alt="Co-Founder 1"
+                    className="w-100 h-100 object-cover rounded-full mx-auto shadow-xl"
+                  />
+                  <p className="text-gray-800 mt-4 text-3xl">Swati Raut</p>
+                </div>
+                <div className="text-center px-10">
+                  <img
+                    src={photo2}
+                    alt="Co-Founder 2"
+                    className="w-100 h-100 object-cover rounded-full mx-auto shadow-xl"
+                  />
+                  <p className="text-gray-800 mt-4 text-3xl">Niket Raut</p>
+                </div>
+              </div>
             </div>
-            <div className="text-center max-w-lg mx-auto mb-12">
-              <h3 className="text-2xl font-semibold text-gray-800">Join Us</h3>
-              <p className="text-gray-600">
+          </div>
+          <div className="text-center max-w-8xl mx-auto flex flex-col justify-center">
+            <div className="text-center max-w-6xl mx-auto ">
+              <h3 className="text-4xl font-semibold text-gray-800">Join Us</h3>
+              <p className="text-gray-600 text-2xl">
                 Partner with us to bring exceptional sauces and condiments to
                 your business, and let us help you serve the best to your
                 customers.
               </p>
-            </div>
-          </div>
-          <div className="text-center max-w-lg mx-auto mb-12 flex flex-col justify-center">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-20">
-              Meet Our Co-Founders
-            </h3>
-            <div className="md:flex justify-center space-x-8">
-              <div className="text-center">
-                <img
-                  src="https://northwest.education/wp-content/uploads/2021/02/Blog-79-680x380.jpg"
-                  alt="Co-Founder 1"
-                  className="w-80 h-80 object-cover rounded-full mx-auto"
-                />
-                <p className="text-gray-800 mt-4">John Doe</p>
-              </div>
-              <div className="text-center">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWuquGRRrzrmHpwFzLN4sh6wfYzujAjryVpg&s"
-                  alt="Co-Founder 2"
-                  className="w-80 h-80 object-cover rounded-full mx-auto"
-                />
-                <p className="text-gray-800 mt-4">Jane Smith</p>
-              </div>
             </div>
           </div>
         </div>
