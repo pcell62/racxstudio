@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <main className="min-h-screen">
       <Header />
-      <section className="py-20 flex flex-col justify-center">
+      <section className="py-5 flex flex-col justify-center">
         <div className="container mx-auto px-4 ">
           <div className="">
             <div className="text-center max-w-8xl mx-auto mb-12">
@@ -44,7 +44,10 @@ const AboutPage = () => {
               </ul>
             </div>
             <div className="flex flex-col justify-center">
-              <div className="text-4xl font-semibold text-gray-800 mb-20 mx-auto">
+              <div
+                className="flex items-center justify-center text-4xl font-semibold text-gray-800 mb-20 mx-auto"
+                style={{ textAlign: "center" }}
+              >
                 Meet Our Co-Founders
               </div>
               <div className="md:flex justify-center space-x-8 mb-10">
@@ -56,7 +59,10 @@ const AboutPage = () => {
                   />
                   <p className="text-gray-800 mt-4 text-3xl">Swati Raut</p>
                 </div>
-                <div className="text-center px-10">
+                <div
+                  className="text-center m-0 px-10"
+                  style={{ marginLeft: "0px" }}
+                >
                   <img
                     src={photo2}
                     alt="Co-Founder 2"
