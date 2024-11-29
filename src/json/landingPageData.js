@@ -30,13 +30,18 @@ import PeriMayo from "../assets/images/Portfolio/PeriMayo.jpg";
 import Sandwhich from "../assets/images/Portfolio/Sandwich.jpg";
 import Classic from "../assets/images/Portfolio/Classic.jpg";
 import GreChil from "../assets/images/Portfolio/GreenChilli.jpg";
-import PizPas from "../assets/images/Portfolio/PizzPas.jpg";
 import MintMayo from "../assets/images/Portfolio/MintMayo.jpg";
 import Schez from "../assets/images/Portfolio/Schez.jpg";
 import Ginger from "../assets/images/Portfolio/Ginger.jpg";
 import Garlic from "../assets/images/Portfolio/Garlic.jpg";
 import RedCHill from "../assets/images/Portfolio/RedChill.jpg";
 import TomKet from "../assets/images/Portfolio/TomKet.jpg";
+import TomSauce from "../assets/images/Portfolio/TomSauce.jpg";
+import eight8 from "../assets/images/Portfolio/8to8.jpg";
+import eight9 from "../assets/images/Portfolio/8to9.jpg";
+import worct from "../assets/images/Portfolio/worct.jpg";
+import sweetChill from "../assets/images/Portfolio/sweetChill.jpg";
+import mustard from "../assets/images/Portfolio/Mustard.jpg";
 
 export const Services = [
   {
@@ -89,6 +94,34 @@ export const Portfolios = [
     packaging: ["250g x 24 GB", "300g X 24 GB", "1kg.X20 pet"],
   },
   {
+    id: "sauce_005",
+    title: "8 to 8 Sauce - 200g",
+    packaging: ["200g x48pet"],
+    type: "Sauces",
+    imageUrl: eight8,
+  },
+  {
+    id: "sauce_006",
+    title: "8 to 9 Sauce - 200g",
+    packaging: ["200g x 48pet"],
+    type: "Sauces",
+    imageUrl: eight9,
+  },
+  {
+    id: "sauce_007",
+    title: "Worsestershire Sauce",
+    packaging: ["200g x 48pet"],
+    type: "Sauces",
+    imageUrl: worct,
+  },
+  {
+    id: "sauce_008",
+    title: "Tomato Sauce",
+    packaging: ["500g x 24pet", "1kg.x 20 pet", "5kg x 4 cans"],
+    type: "Sauces",
+    imageUrl: TomSauce,
+  },
+  {
     id: "sauce_009",
     title: "Tomato Ketchup",
     type: "Sauces",
@@ -96,12 +129,20 @@ export const Portfolios = [
     packaging: ["500g x24pet", "1kg.x 20 pet", "5kg. X 4 cans"],
   },
   {
-    id: "sauce_011",
-    title: "Pizza Sauce",
+    id: "sauce_010",
+    title: "Sweet Chilli Sauce",
+    packaging: ["200g x 48pet"],
     type: "Sauces",
-    imageUrl: PizPas,
-    packaging: ["250g x 24 GB", "1kg.x 20 pet"],
+    imageUrl: sweetChill,
   },
+  {
+    id: "sauce_014",
+    title: "Mustard Sauce",
+    packaging: ["300g x 24 GB"],
+    type: "Sauces",
+    imageUrl: mustard,
+  },
+
   {
     id: "paste_001",
     title: "Garlic Paste",

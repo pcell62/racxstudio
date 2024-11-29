@@ -394,11 +394,11 @@ const FoodPortfolio = ({ data }) => {
                 key={item.id}
                 className="group relative rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
               >
-                <div className="relative aspect-square">
+                <div className="relative w-full h-64 bg-white">
                   <img
                     src={item.imageUrl}
                     alt={item.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div className="p-4 bg-white">
@@ -431,11 +431,11 @@ const FoodPortfolio = ({ data }) => {
                 key={item.id}
                 className="group relative rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
               >
-                <div className="relative aspect-square">
+                <div className="relative  w-full h-64 bg-white">
                   <img
                     src={item.imageUrl}
                     alt={item.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div className="p-4 bg-white">
@@ -468,11 +468,13 @@ const FoodPortfolio = ({ data }) => {
                 key={item.id}
                 className="group relative rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
               >
-                <div className="relative aspect-square">
+                <div className="relative w-full h-64 bg-white">
+                  {" "}
+                  {/* Fixed height and white background */}
                   <img
                     src={item.imageUrl}
                     alt={item.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div className="p-4 bg-white">
@@ -485,7 +487,7 @@ const FoodPortfolio = ({ data }) => {
                 </div>
                 {/* Packaging Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-75 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
-                  <ul className="text-white  text-center space-y-2">
+                  <ul className="text-white text-center space-y-2">
                     {item.packaging.map((pack, index) => (
                       <li key={index} className="text-xl">
                         {pack}
