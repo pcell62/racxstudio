@@ -22,7 +22,7 @@ import nine from "../assets/images/Advantages/9.png";
 import JalMayo from "../assets/images/Portfolio/jal_mayo.jpg";
 import DarkSoy from "../assets/images/Portfolio/dark_soy.jpg";
 import BarMayo from "../assets/images/Portfolio/bar_mayo.jpg";
-import EggMayo from "../assets/images/Portfolio/egg_mayo.jpg";
+import EggMayo from "../assets/images/Portfolio/EggMayo.jpg";
 import ItaMayo from "../assets/images/Portfolio/ItaMayo.jpg";
 import GarMayo from "../assets/images/Portfolio/GarMayo.jpg";
 import TandMayo from "../assets/images/Portfolio/TandMayo.jpg";
